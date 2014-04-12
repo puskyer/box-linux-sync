@@ -68,6 +68,8 @@ Usage
 
 ###### Send `box-sync` into oblivion when you get tired of it.
 
+###### To Use /sbin/mount.davfs as a non-root user run the following "sudo dpkg-reconfigure davfs2" and and answering 'yes' to the setuid question. ths is only required if you already had davfs2 installed or you did not read the instrusctions when installing it.
+
 This just removes `box-sync` configuration files and the repository, not your personal Box.com files (unless you have configured the `box_sync` dir to be inside `~/.noiselabs`).
 
     $ ./box-sync uninstall
